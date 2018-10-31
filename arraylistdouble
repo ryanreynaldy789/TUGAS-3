@@ -1,0 +1,41 @@
+
+public class arraylistdouble {
+    public static void main(String[] args) {
+     double a=1,b=2,c=3,d=4,e=5,f=6;
+     System.out.println("nilai minimum  : "+fungsiminimum(a,b));
+     System.out.println("nilai minimum  : "+fungsiminimum(b,c));
+     System.out.println("nilai minimum  : "+fungsiminimum(c,f));
+    }
+            
+    public static int fungsiminimum(double nilai1,double nilai2){
+       double min;
+       if (nilai1<nilai2)
+       min=nilai1;
+       else
+       min=nilai2;
+        return (int) min;
+        
+        
+       }
+
+    void add(int top, String value) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    String get(int top) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    void remove(int top) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    void add(int top, double value) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+   
+    
+}
+   
+
