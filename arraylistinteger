@@ -1,0 +1,21 @@
+package modifire;
+public class arraylistinteger {
+    public static void main(String[] args) {
+     int a=1,b=2,c=3,d=4,e=5,f=6;
+     System.out.println("nilai minimum  : "+fungsiminimum(a,b));
+     System.out.println("nilai minimum  : "+fungsiminimum(b,c));
+     System.out.println("nilai minimum  : "+fungsiminimum(c,f));
+    }
+            
+    public static int fungsiminimum(int nilai1,int nilai2){
+       int min;
+       if (nilai1<nilai2)
+       min=nilai1;
+       else
+       min=nilai2;
+        return min;
+        
+        
+       }
+    
+}
