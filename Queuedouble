@@ -1,0 +1,22 @@
+
+import java.util.ArrayList;
+
+public class Queuedouble {
+arraylistdouble container = new arraylistdouble();
+int top = -1;
+public void insert (double value){
+top = top+1;
+container.add(top, value);
+}
+public String get(){
+String value = "";
+if (top>-1){
+value = container.get (top);
+container.remove(top);
+top=top -1;}
+        return value;
+}
+public void cetak (){
+        System.out.println("TOP:"+top+">container"+container);   
+}
+}
