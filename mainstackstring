@@ -1,0 +1,16 @@
+public class mainstring {
+    
+    public static void main(String[] args) {
+            Stackstring st = new Stackstring();
+            st.cetak();
+            
+            st.push("wahida a");st.cetak();
+            st.push("fatimah");st.cetak();
+            st.push("zulfahmi");st.cetak();
+    
+            st.pop();st.cetak();
+            st.pop();st.cetak();
+            st.pop();st.cetak();
+            st.pop();st.cetak();
+}
+}
