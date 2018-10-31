@@ -1,0 +1,41 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+ 
+public class arrayliststring
+{
+    public static void main(String[] args)
+    {
+        //  Buat Objek dari ArrayList
+        ArrayList abdiarray = new ArrayList();
+         
+        //  Input jumlah Data yang di inginkan oleh User
+        System.out.print("Input jumlah Data : ");   int abdiscan = new Scanner(System.in).nextInt();
+         
+        //  Input Data dan masukkan ke dalam objek ArrayList yang telah Anda buat
+        for(int a = 0; a < abdiscan; a++)
+        {
+            System.out.print("Masukkan Data ke-"+(a+1)+": ");
+            abdiarray.add(new Scanner(System.in).nextLine());
+        }
+         
+        //  Tampilkan nilai yang di simpan di dalam ArrayList
+        System.out.println("\nTampilkan Data yang di input");
+        for(Object o : abdiarray)
+        {
+            System.out.println(o);
+        }
+         
+        //  Masukkan Data yang akan dihapus
+        System.out.print("\nInput Data yang akan dihapus : ");  String data_hapus = new Scanner(System.in).nextLine();
+         
+        //  Lakukan penghapusan Data di dalam ArrayList
+        abdiarray.remove(data_hapus);
+         
+        //  Tampilkan kembali nilai yang di simpan di dalam ArrayList
+        System.out.println("\nTampilkan kembali Data yang ada di dalam ArrayList");
+        for(Object o : abdiarray)
+            System.out.println(o);
+         
+    }
+}
