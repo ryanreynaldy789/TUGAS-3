@@ -1,0 +1,14 @@
+public class mainqueuestring {
+    
+    public static void main(String[] args) {
+            Queuestring st = new Queuestring();
+            st.cetak(); 
+            
+             st.insert("wahida a");st.cetak();
+             st.insert("fatimah");st.cetak();
+             st.insert("zulfahmi");st.cetak();
+             
+             st.get();
+             st.cetak();
+}
+}
