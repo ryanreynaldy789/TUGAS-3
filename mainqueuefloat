@@ -1,0 +1,14 @@
+public class mainqueuefloat {
+    
+    public static void main(String[] args) {
+            Queuefloat st = new Queuefloat();
+            st.cetak(); 
+            
+             st.insert(5);st.cetak();
+             st.insert(5);st.cetak();
+             st.insert(6);st.cetak();
+             
+             st.get();
+             st.cetak();
+}
+}
